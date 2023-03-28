@@ -1,0 +1,574 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+#nav_bar{
+    border:  solid      black; 
+    margin-top: 0px;
+    height: 80px;
+    background-color: black;
+}
+#nav_art{
+     /* border: 2px solid  black ; */ 
+    height: 80px;
+    margin: 0 52.5px;
+    padding: 0 15px;
+}
+ #nav_logo{
+    /* border: 2px solid black; */
+    height:60px;
+    width: 132px;
+    margin-top:20px  ;
+    padding:0;
+    fill: #fff; 
+} 
+#nav_menu{
+    height: 80px;
+    width: 492px;
+    margin:-80px 720px ; 
+     /* border: 1px dotted green;  */
+}
+#nav_menu_list{
+    list-style: none;
+    display:flex;    
+    justify-content:space-evenly;
+    align-items: center;    
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #fff;
+    height: 80px;
+    /* border: 1px dotted green; */
+    
+}
+
+.nav_anchor {
+    text-decoration: none;
+    color: #fff;
+    padding:28px 17px ;
+    display: inline-block;
+    height: 80px;
+    /* border: 1px solid red */
+    
+}
+.nav_anchor:hover{
+    color: #1ed760;
+}
+/* phone art>>>>>>>>>>>>>>>> */
+#phone_art{
+    height: 600px;
+    width: 1349px;
+    /* border: 1px solid blue; */
+    /* background-color: grey; */
+    background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)); 
+    
+}
+#phone_box  {
+    width: 80%;
+    height: 100%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    display: flex;
+}
+#phone_part{
+    width:40%;
+    height: 100%;
+    /* border: 1px solid black; */
+    
+}
+#phone_part svg{
+    height:572px;
+    width: 281px;
+    margin-top:100px;
+    margin-left: 59px;
+    position: absolute;
+}
+#phone_part img{
+    width: 267px;
+    height: 445px;
+    position: relative;
+    margin: 154px 0 0 66px;
+}
+#quote_part{
+    width: 708px;
+    height: 600px;
+    /* border: 1px dotted white; */
+}
+#quote{
+    width: 639px;
+    height: 179px;
+    /* border: 1px solid white; */
+    margin:180px 0 0 0 ;
+    font-family: font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    font-size:64px;
+    color:white;
+    font-weight:900px;
+    
+}
+#button{
+    width: 188.69px;
+    height: 48px;
+    border-radius: 500px;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    font-size: inherit;
+    border: 0 none;
+    color: #fff;
+    
+}
+#button:hover{
+    transform: scale(1.04);
+}
+#button_content{
+    color: black;
+    text-align: center;
+    font-weight:bolder;
+    font-size:14px;
+    font-weight:600;
+}
+/* why  spotify section */
+#sec3_border{
+    width: 100%;
+    height: 595.3px;
+    /* border: 2px solid red; */
+    background-color: white;
+}
+#sec3_inner_box{
+    width:80%;
+    height:100%;
+    margin: 0 auto;
+    padding: 75px 15px;
+    /* border:2px solid black; */
+}
+#why_spotify{
+    width: 670px;
+    height: 46px;
+    margin: 0 235px;
+    padding-left: 150px;
+    font-size: 46px;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+}
+
+#icon_block{
+    width: 100%px;
+    height: 327.3px;
+    margin: 40px auto;
+    display: flex;
+    /* border: 2px solid white  ; */
+}
+#icon_blockmenu1{
+
+    width: 25%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+#icon_blockmenu1 img {
+    width: 142px;
+    height: 142px;
+    margin: 0 58px 40px;
+}
+#block_menu1_content{
+    width: 100%;
+    height: 109.3px;
+}
+#block_menu1_content h3{
+    text-align: center;
+    font-size: 21px;
+    padding: 0 0 10px;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+
+}
+#block_menu1_content p{
+    text-align: center;
+    height: 72px;
+    width: 100%;
+    font-size: 16px;
+    
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+
+}
+#icon_blockmenu2{
+
+    width: 25%;
+    height: 100%;
+     /* border: 2px solid red;  */
+}
+#icon_blockmenu2 img{
+    width: 142px;
+    height: 142px;
+    margin: 0 58px 40px;
+}
+#block_menu2_content h3{
+    text-align: center;
+    font-size: 21px;
+    padding: 0 0 10px;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+
+}
+#block_menu2_content p{
+    text-align: center;
+    height: 72px;
+    width: 100%;
+    font-size: 16px;
+    
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+
+}
+
+#icon_blockmenu3{
+    width: 25%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+#icon_blockmenu3 img{
+    width: 142px;
+    height: 142px;
+    margin: 0 58px 40px;
+}
+#block_menu3_content h3{
+    text-align: center;
+    font-size: 21px;
+    padding: 0 0 10px;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+
+}
+#block_menu3_content p{
+    text-align: center;
+    height: 72px;
+    width: 100%;
+    font-size: 16px;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+
+}
+#icon_blockmenu4{
+    width: 25%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+#icon_blockmenu4 img{
+    width: 142px;
+    height: 142px;
+    margin: 0 58px 40px;
+}
+#block_menu4_content h3{
+    text-align: center;
+    font-size: 21px;
+    padding: 0 0 10px;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+
+}
+#block_menu4_content p{
+    text-align: center;
+    height: 72px;
+    width: 100%;
+    font-size: 16px;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+}
+/* ************************************************ */
+/* Banner section */
+#banner{
+    width:1349px ;
+    height:495.49px ;
+    /* border: 2px solid green; */
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+#top_content{
+    width:1349px ;
+    height: 247.49;
+    padding:190px 15px  0px ;
+    font-size: 48px;
+    text-align: center;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    color: white;
+}
+#bottom_content{
+    width:1349px ;
+    height: 247.49;
+    pad: 0px 15px 190px;
+    font-size: 48px;
+    text-align: center;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;   
+    color: white;
+}
+/* ******************************************* */
+#banner_2{
+    width:1349px ;
+    height:450px ;
+    background: url(https://www.scdn.co/i/free/lets-play.svg) left -10px bottom -160px / 100% 1114px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166)) rgb(108, 14, 224);
+}
+ /* #banner_2_inner_box{
+    width:100% ;
+    height:128px ;
+    font-size: 80px;
+    padding: 0 100px 32px;
+    border:2px none;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;   
+    text-align: center;
+    
+}  */
+#banner_2_inner_box h1{
+    width:1349px ;
+    height:128px ;
+    font-size: 80px;
+    padding: 200px 100px 32px;
+    /* border: 2px solid white;  */
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;   
+    text-align: center;
+    margin: 0px 400px 0px  0px;
+    
+}
+#banner_2_bottombox{
+    width:100% ;
+    height:128px ;
+    /* border: 2px solid red; */
+    margin:150px 0 0 0
+}
+#banner_2_bottombox button{
+    width:188.69px;
+    height:48px ;
+    margin:0 0 0 550px;
+    border-radius: 500px;
+    border: none;
+}
+#banner_2_bottombox button p{color: black;
+    text-align: center;
+    font-weight:bolder;
+    font-size:14px;
+    font-weight:600;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+}
+#banner_2_bottombox:hover{
+    transform: scale(1.04);
+}
+#footer{
+    width: 100%;
+    height: 554px;
+    /* border: 2px solid  red; */
+    background-color: black;
+    padding: 80px 0  50px;
+}
+#up_footer{
+    /* border: 2px dotted green; */
+    height: 346px;
+    display: flex;
+    padding: 0 7%;
+}
+#up_foot1{
+    /* border: 2px solid hotpink; */
+    width:25%
+}
+#up_foot1 svg{
+    width: 150px;
+    height:60px ;
+    fill: #fff;
+}
+#up_foot2{
+    /* border: 2px solid hotpink; */
+    width:45%;
+    display:flex
+}
+#company{
+    width:172.9px ;
+    height:346px    ;
+    /* border:2px solid white; */
+    padding: 0 15px;
+    color: white;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+}
+#company_head{
+    width:139px ;
+    height: 16.8px;
+    color: grey;
+    margin: 20px 0;
+}
+#about{
+    width: 139px;
+    height: 19px;
+    margin: 20px 0;
+    
+}
+#about:hover{
+    color: #1ed760;
+}
+#jobs{
+    width: 139px;
+    height: 19px;
+    margin: 20px 0;    
+}
+#jobs:hover{
+    color: #1ed760;
+}
+#for_rec{
+    width: 139px;
+    height: 19px;
+    margin: 20px 0;
+}
+#for_rec:hover{
+    color: #1ed760;
+}
+#community{
+    width:172.9px ;
+    height:346px    ;
+    /* border:2px solid white; */
+    color: #fff;
+    padding:0 15px;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    
+}
+#comunity_head{
+    width: 139px;
+    height: 19px;
+    margin: 20px 0;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    color: grey;
+}
+#for_artist{
+    width: 139px;
+    height: 19px;
+    margin: 20px 0;
+}
+#for_artist:hover{
+    color: #1ed760;
+}
+#Developer{
+    width: 139px;
+    height: 19px;
+    margin: 20px 0;
+}
+#Developer:hover{
+    color: #1ed760;
+}
+#advertising{
+    width: 139px;
+    height: 19px;
+    margin: 20px 0;
+}
+#advertising:hover{
+    color: #1ed760;
+}
+#invest{
+    width: 139px;
+    height: 19px;
+    margin: 20px 0;
+}
+#invest:hover{
+    color: #1ed760;
+}
+#vendors{
+    width: 139px;
+    height: 19px;
+    margin: 20px 0;
+}
+#vendors:hover{
+    color: #1ed760;
+}
+#useful_link{
+    width:172.9px ;
+    height:346px;
+    /* border:2px solid white; */
+    color: white;
+    padding:0 15px;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+}
+#link_head{
+    width: 139px;
+    height: 19px;
+    margin: 20px 0;
+    /* font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif; */
+    color: grey;
+}
+
+#support{
+    width: 139px;
+    height: 19px;
+    margin: 20px 0;
+}
+#support:hover{
+    color: #1ed760;
+}
+#web-play{
+    width: 139px;
+    height: 19px;
+    margin: 20px 0;
+}
+#web-play:hover{
+    color: #1ed760;
+}
+#free_mob{
+    width: 139px;
+    height: 19px;
+    margin: 20px 0;
+}
+#free_mob:hover{
+    color: #1ed760;
+}
+#up_foot3{
+    /* border: 2px solid hotpink; */
+    width:30%;
+    margin: 0 15px 0 183px;
+}
+#insta{
+    fill: #fff;
+}
+
+#block{
+    width: 192px;
+    height: 54px;
+    margin: 20px 0px 0px;
+}
+
+
+#down_foot1{
+    /* border: 2px solid white; */
+    height: 39px;
+}
+#down_foot2{
+    /* border: 2px solid red; */
+    height: 39px;
+    color: white;
+    display: flex;
+}
+#contentbox{
+    width: 420px;
+    height: 39px;
+    margin: 0 45px 0 80px;
+    padding:0 0 0 15px;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+}
+#contentbox ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style-type: none;
+}
+#contentbox ul a{
+    text-decoration: none;
+    color: white;
+}
+#contentbox ul a:hover{
+    color: #1ed760;
+}
+#copy_rights{
+    padding: 0 0 0 570px;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+}
+#conboxul li:hover{
+    color: #1ed760;
+}
+#copy_rights:hover{
+    color: #1ed760;
+}
+#india img{
+    fill:#fff;
+}
+#india{
+    color: #fff;
+    padding-left: 1117px;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+}#india:hover{
+    color: #1ed760;
+}
+
+
